@@ -11,12 +11,7 @@ document.getElementById('game').onclick = (event) => {
             event.target.innerHTML = '0';
         }
         checkWinner();
-        step++;
-
-    // console.log(event)
-    // console.log(event.target.className)
-    // console.log("//====//") 
-    // event.target.innerHTML = '0';       
+        step++;     
     }
 }
 
@@ -36,6 +31,4 @@ function checkWinner() {
     if(allBloc[0].innerHTML == '0'  && allBloc[3].innerHTML == '0' && allBloc[6].innerHTML =='0') alert('WIN 0');
     if(allBloc[1].innerHTML == '0'  && allBloc[4].innerHTML == '0' && allBloc[7].innerHTML =='0') alert('WIN 0');
     if(allBloc[2].innerHTML == '0'  && allBloc[5].innerHTML == '0' && allBloc[8].innerHTML =='0') alert('WIN 0');
-}
-
-z
+};
